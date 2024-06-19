@@ -29,6 +29,7 @@ header {
     gap: 1.5rem;
 
     z-index: 2;
+    margin-bottom: 30px;
 }
 
 button:not(.btn) {
@@ -63,4 +64,300 @@ button:not(.btn).nav-btn {
 button:not(.btn):hover {
     box-shadow: none;
     border-radius: 0;
+}
+
+.welcome {
+    background-color: #679BCA;
+    height: 60vw;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.welcome h1 {
+    color: #fff;
+    font-size: 54px;
+}
+
+.welcome h2 {
+    color: #fff;
+}
+
+.welcome .text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 7%;
+}
+
+.welcome .photo img {
+    height: 480px;
+    width: 640px;
+    border-radius: 5%;
+}
+
+.welcome .photo {
+    display: flex;
+}
+
+.interests {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.interests .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.interests .text h3 {
+    text-align: center;
+}
+
+.interests img {
+    width: 30%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.interests .photo {
+    display: flex;
+    justify-content: space-around;
+}
+.interests .photo img{
+    border-radius: 5%;
+}
+.skills{
+    background-color: #679BCA;
+}
+
+.skills .zagolovok {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.skills .text {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    color: white;
+}
+
+.skills .text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .text h3 {
+    text-align: center;
+}
+
+.skills .text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills .image {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.skills .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.skills .image img:nth-child(1) {
+    grid-row: 1/3;
+    grid-column: 2/4;
+    padding: 5px;
+}
+
+.skills .image img:nth-child(2) {
+    grid-row: 1/3;
+    grid-column: 4/10;
+    padding: 5px;
+}
+
+.skills .image img:nth-child(3) {
+    grid-row: 3/5;
+    grid-column: 2/6;
+    padding: 5px;
+}
+
+.skills .image img:nth-child(4) {
+    grid-row: 3/5;
+    grid-column: 6/10;
+    padding: 5px;
+}
+
+.portfolio .button {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio .button a {
+    padding: 5px 30px !important;
+    display: block;
+    color: white;
+    width: 190px;
+    background-color: #000000;
+    border-radius: 7px;
+
+}
+
+.portfolio .zagolovok {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.practice .razvetv {
+    display: flex;
+    justify-content: space-around;
+}
+
+.practice img {
+    width: 85%;
+    border-radius: 5%;
+}
+
+.practice .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.practice .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.practice .text p {
+    text-align: center;
+}
+
+.portfolio .button a:hover {
+    color: #000000 !important;
+    transition: 300ms ease-in-out;
+    background-color: #8691B8;
+}
+
+.monochrome img {
+    width: 85%;
+    border-radius: 5%;
+}
+
+.monochrome {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.monochrome p {
+    text-align: center;
+}
+
+.monochrome .text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-right: 10px;
+}
+
+.monochrome .photo {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--primary);
+    --bs-btn-border-color: none !important;
+    --bs-btn-hover-bg: #8691B8 !important;
+    --bs-btn-active-bg: var(--primary-active)
+}
+
+.btn-lg {
+    --bs-btn-border-radius: 0;
+}
+.career{
+    margin-bottom: 30px;
+}
+.career .text-photo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.career .photo img {
+    width: 85%;
+    border-radius: 20px;
+}
+
+.career .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.career .zagolovok h1{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 46px;
+    margin-bottom: 38px;
+}
+.feedback h1{
+    display: flex;
+    align-items: center;
+}
+.feedback .form-label{
+    color: #000000;
+}
+.feedback .form-check-label{
+    color: #000000;
+}
+.feedback .form{
+    width: 70%;
+    color: #EEEEEE;
+}
+.feedback .form .mb-3 #exampleInputMessage1{
+    height: 200px;
+}
+#emailHelp{
+    color: #b61f1f;
+}
+.feedback .form button{
+    background: #679BCA;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    margin-bottom: 50px;
+}
+@media (min-width: 720px){
+.feedback .form button:hover{
+    background: none;
+    color: #679BCA;
+    border: 2px solid #679BCA;
+}
 }
