@@ -361,3 +361,170 @@ button:not(.btn):hover {
     border: 2px solid #679BCA;
 }
 }
+footer {
+    background: #679BCA;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+footer .links {
+    color: #BBBBBB;
+}
+
+footer .row .col {
+    width: max-content;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h6 {
+    font-weight: 600;
+}
+
+@media (max-width:720px) {
+    .skills .texth1 {
+        font-size: 36px;
+    }
+
+    .skills .text h2 {
+        font-size: 24px;
+    }
+
+    .skills .text h3 {
+        font-size: 14px;
+    }
+
+    .welcome {
+        height: 100vw;
+    }
+
+    .welcome h1 {
+        font-size: 36px;
+    }
+
+    .welcome h2 {
+        font-size: 20px;
+    }
+
+    header {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+
+    }
+
+    button:not(.btn).nav-btn {
+        border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+        font-size: 10px;
+    }
+
+    .interests h1 {
+        font-size: 36px;
+    }
+
+    .interests h3 {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .portfolio .zagolovok h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width:500px) {
+    .skills .text h1 {
+        font-size: 32px;
+    }
+
+    .skills .text h2 {
+        font-size: 20px;
+    }
+
+    .skills .text h3 {
+        font-size: 14px;
+    }
+
+    .welcome {
+        height: 130vw;
+    }
+
+    .welcome .photo img {
+        width: 60%;
+        height: 60%;
+    }
+
+    .welcome .photo {
+        justify-content: center;
+    }
+
+    .welcome h1 {
+        font-size: 32px;
+    }
+
+    .welcome h2 {
+        font-size: 16px;
+    }
+
+    header {
+        font-size: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 3px;
+
+    }
+
+    button:not(.btn).nav-btn {
+        border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+        font-size: 10px;
+    }
+
+    .interests h1 {
+        font-size: 32px;
+    }
+
+    .interests h3 {
+        font-size: 14px;
+        padding: 20px;
+    }
+
+    .portfolio .zagolovok h1 {
+        font-size: 32px;
+    }
+
+    .career .text p{
+        font-size: 14px;
+    }
+    .monochrome p{
+        font-size: 14px;
+    }
+    .practice p{
+        font-size: 14px;
+    }
+    .interests img{
+        height: 250px;
+    }
+}
+@media (max-width:370px) {
+    .career .photo img{
+        height: 200px;
+        width: 180px;
+        padding-right: 5px;
+    }
+    .skills .image{
+        gap: 2px;
+    }
+    .welcome {
+        height: 160vw;
+    }
+    
+}
+@media (max-width:330px) {
+    .career .photo img{
+        width: 150px;
+        height: auto;
+    }
+}
